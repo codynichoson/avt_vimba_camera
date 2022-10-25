@@ -1,15 +1,24 @@
 /**:
   ros__parameters:
     feature/AcquisitionFrameCount: 1
-    feature/AcquisitionMode: Continuous
-    feature/BalanceWhiteAuto: Continuous
-    feature/ExposureTime: 100000.0
+    # feature/AcquisitionMode: Continuous
+    # feature/BalanceWhiteAuto: Continuous
+    # feature/BalanceWhiteAutoRate: 100.0
+    # feature/BalanceWhiteAutoTolerance: 5.0
+    # feature/ContrastBrightLimit: 255
+    # feature/ContrastDarkLimit: 0
+    # feature/Gain: 14.97
     feature/GainAuto: Continuous
-    feature/PixelFormat: Mono8
-    feature/TriggerActivation: RisingEdge
-    feature/TriggerMode: 'Off'
-    feature/TriggerSelector: AcquisitionStart
-    feature/TriggerSource: Software
-    feature/Width: 4024
-    feature/Height: 3036
-    feature/LineMode: Input
+    # feature/GainAutoMax: 24.18
+    # feature/GainAutoMin: 0.0
+    feature/ExposureAuto: Continuous
+    # feature/Gamma: 1.0
+    # feature/Hue: 0.0
+    # feature/IntensityAutoPrecedence: Minimizenoise
+    # feature/IntensityControllerAlgorithm: Mean
+    # feature/IntensityControllerRate: 100
+    # feature/IntensityControllerRegion: FullImage
+    # feature/IntensityControllerTarget: 50.0
+    # feature/IntensityControllerTolerance: 5
+    # feature/Saturation: 1.0
+    # feature/TestPendingAck: 0
